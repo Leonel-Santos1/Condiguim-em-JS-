@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Att de JS moro</title>
+    <style>
+        body {
+            background-color: rgb(30, 88, 155);
+            font: normal 14pt Arial;
+        }
+        h1 {
+            font: normal 25pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = prompt('Qual é o seu nome? ')            
+        var sal = Number.parseInt(prompt('Digite o seu salário'))
+        document.write(`<h1>Olá, seja bem vindo: ${nome}</h1>`)
+        document.write(`Seu nome tem ${nome.length} caracteres. <br/>`)
+        document.write(`Seu nome em letras maiúsculas é: ${nome.toUpperCase()} <br/>`)
+        document.write(`Seu nome em letras minúsculas é: ${nome.toLowerCase() }<br/>`)
+        document.write(`Seu salário é: ${sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+    </script>
+</body>
+</html>
