@@ -1,1 +1,1 @@
-Código simples com html, JS e um pouco de JS
+Código simples com html, JS e um pouco de CSS
